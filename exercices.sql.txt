@@ -1,0 +1,10 @@
+
+ex1. DELETE FROM `webdevelopment`.`languages` WHERE `language` = 'HTML';
+
+ex2. UPDATE `webdevelopment`.`frameworks`
+     SET `name` = 'Symfony2'
+     WHERE `name` = 'Symfony';
+
+ex3. UPDATE `webdevelopment`.`languages`
+     SET `versions` = '5.1'
+     WHERE `language` = 'Javascript' AND `versions` = '5';
